@@ -1,0 +1,14 @@
+<h1>Portfolio profit - Stocks</h1>
+ 
+<div>
+  <%= render "partials/profit" %>
+</div>
+
+<div>
+  <% @stocks.each do |stock| %>
+    <div>
+      <p>Date: <%= stock.date %></p>
+      <p>Price: <%= stock.price %></p>
+    </div>
+  <% end %>  
+</div>

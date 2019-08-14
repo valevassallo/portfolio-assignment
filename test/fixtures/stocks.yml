@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  portfolio: one
+  price: 1.5
+
+two:
+  portfolio: two
+  price: 1.5
